@@ -1,0 +1,34 @@
+---
+layout: layouts/post.njk
+title: A Letter to an Aspiring Indie Developer
+
+date: 2013-10-07
+published: false
+tags: []
+---
+
+### Preface
+
+I came in contact with the letter's recipient through [a post on /r/gamedev](http://www.reddit.com/r/gamedev/comments/17y5uy/is_there_a_reddit_for_getting_feedback_on_game/), a subreddit for the development (not design) of video games. The poster was an innocent newcomer looking for advice on a game he was thinking about creating. Instead of downvoting the post and moving on, some conviction came over me and I decided to get in touch with him and see what advice I could share. He first sent me his rough draft design document, detailing a fun but overscoped game, especially coming from someone who was just getting their feet wet in game development. My response is as follows, with footnotes added postmortem.
+
+## The Letter
+
+(written on February 6, 2013)
+
+The game concept seems good. Obviously it is difficult to know without playtesting, but the idea appears sound. Now I have no idea if you've faced the reality of development before with your sample projects, but I can all but guarantee that this idea will take a much bigger investment than you may be envisioning. [This prototype game](http://www.youtube.com/watch?v=Wy90X3PyzcY) took my team of six a few hundred man-hours to produce over a seven week period (2 artists, 3 programmers, 1 level designer). [Knock-knock](http://www.kickstarter.com/projects/1535515364/knock-knock), a game that seems to share similarities with your idea, managed to raise $41,000 to pay an indie team of seven people to develop a game in 5 months. They have missed their deadline and since gone asking for investor money to finish out the project[1]. The point of this is that developing a game on the scope that you are proposing takes time, money, and talented, passionate people working alongside you.
+
+However, if you are truly invested in fully realizing the game you want after hearing that, there is hope. Now I can't speak to the quality of Gamemaker in recent years, but I asked around today and I've heard that it is still a difficult tool to work with if you are trying to build anything more than a prototype/simple game (which is true of my experience with it a few years ago). One tool rapidly gaining in popularity is Unity. "But it is for 3D games!" I hear you saying. My answer that our game Gridlock (the trailer earlier) was built from scratch inside of Unity, so 2D games are indeed possible. I'm not going to claim that making a 2D game in a 3D engine is the best idea in the world, but it can be done[2]. The potentially better recommendation is to use [MonoGame](http://www.monogame.net/), which is the open-source version of XNA. XNA is Microsoft's method of creating games for PC, Windows, and WinPhone at the same time, but they recently discontinued XNA and MonoGame is being recommended by Microsoft reps now[3]. [Four Guns](http://www.youtube.com/watch?v=ncJOLBVFGpk), a prototype that is the predecessor to Gridlock, was built in C#/XNA and it was pretty easy to work with, especially for 2D. If you are going to take away anything from this paragraph, it is that MonoGame is more than likely the library you should build your game with.
+
+The next step for any development project is to sketch out an outline of what your programming class structure will look like. [This](http://res.cloudinary.com/danieljost/image/upload/v1381814501/gridlock_whiteboard_gg8wpx.jpg) is the one we initially drew for Gridlock. This is useful because it forces you to consider what features will be in the game, how your classes work with each other, and how to begin developing a prototype. Using that picture, you could surmise that in order to start building the game it would be beneficial to have a player run around, which means that you will need to create a generic GameObject class and a MoveableGameObject that inherits from GameObject.
+
+You've also got to consider the asset pipeline. Basically that boils down to, "how do I get art into my game?" In Four Guns we had our artist draw a [spritesheet](http://res.cloudinary.com/danieljost/image/upload/v1381814626/fourguns_spritesheet_t7tpgf.png) in Photoshop which we animated using code. This is a very common technique for 2D games and is very likely the route you will want to go. The other less common choice is to draw all the parts separately and glue them together in code ([this is an example](http://www.youtube.com/watch?v=Kei_o46v2s8)). Whatever you use, make sure you own the licenses to all the software ([GIMP](http://www.gimp.org/) is a free alternative to Photoshop you may want to check out).
+
+Lastly (although I could talk much more in detail about any other questions you may have), I would ask you to really think over indie development. The most obvious reason people choose indie is for creative freedom. It is great to be able to work at your own pace on a project where you decide how everything is going to work. But even someone like Notch, the creator of Minecraft and bastion of independent development, formed a studio and hired other people to work with him. His company Mojang is still independent of publishers and they can choose which projects to make and the timeline in which to make them, but now there are different people who are skilled at filling different roles in development working together. What this means for you is that it might not be a bad idea to bring on an extra hand if you are serious about making your game. Get someone who has been making video game art for years, or a programmer with extensive knowledge of stuff like, for example, using A* to calculate a movement path for AI. Instead of being a jack-of-all-trades, you gain a working knowledge of how everything in a game operates and you get to focus on what you really love doing.
+
+I know it's a lot to think about and I don't want to overwhelm you. If you've ever watched [Indie Game: The Movie](http://buy.indiegamethemovie.com) (very highly recommended), you know that making games often feels like an impossible task that you will never get right. But, but, if you stick with it, even during those times when you've spent hours trying to get that stupid line of code to do what its supposed to do, that feeling of finally sharing the game with people and watching their reaction is one that can't be explained in words.
+
+#### Footnotes
+
+[1] - I couldn't confirm the investor situation looking back at their development, but it still took them an extra year to complete the game nonetheless.
+<p style="text-align: left;">[2] - Unity <a href="http://blogs.unity3d.com/2013/08/28/unity-native-2d-tools/">announced</a> in August that they will have built-in 2D support, so that advice is more relevant than ever.</p>
+[3] - I have heard different stories from every employee I've talked to, they have no clue what's going on anymore.
