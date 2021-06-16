@@ -1,10 +1,8 @@
 ---
 layout: layouts/post.njk
 title: PennApps Fall 2014 - HN Special
-
 date: 2014-09-26
-published: false
-tags: [hackathon]
+tags: hackathon
 ---
 
 ![PennApps X logo](http://res.cloudinary.com/danieljost/image/upload/v1411163941/pennapps_onrs3y.png)

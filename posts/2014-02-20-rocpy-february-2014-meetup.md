@@ -1,10 +1,8 @@
 ---
 layout: layouts/post.njk
 title: RocPy February 2014 Meetup
-
 date: 2014-02-20
-published: false
-tags: [advfoss]
+tags: advfoss
 ---
 
 I am going to gloss over [the meeting](http://www.meetup.com/Rochester-Python-Meetup/events/164013472/) itself, as I imagine numerous other blog posts will cover that ground. Instead I would like to highlight a chat that [Colden](http://coldencullen.com) and I had with Len Coia, a local programmer interested in picking up Python.

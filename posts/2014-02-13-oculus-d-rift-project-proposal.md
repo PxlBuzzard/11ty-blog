@@ -1,10 +1,8 @@
 ---
 layout: layouts/post.njk
 title: Oculus D-Rift Project Proposal
-
 date: 2014-02-13
-published: false
-tags: [advfoss]
+tags: advfoss
 ---
 
 Title of Hack - **Oculus D-Rift**

@@ -1,10 +1,8 @@
 ---
 layout: layouts/post.njk
 title: Final Countdown to Advfoss
-
 date: 2014-05-07
-published: false
-tags: [advfoss]
+tags: advfoss
 ---
 
 Our last assignment for my Advanced FOSS class is to open 10 issues on Github and close 5 of them in a week. And so, I present a list of issues:

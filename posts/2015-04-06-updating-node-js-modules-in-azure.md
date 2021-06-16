@@ -1,10 +1,11 @@
 ---
 layout: layouts/post.njk
 title: Updating a Node.js App in Azure
-
 date: 2015-04-06
-published: false
-tags: [Web Development, node.js, Azure]
+tags:
+  - web development
+  - node.js
+  - azure
 ---
 
 Recently I moved my [Ghost](https://ghost.org/) blog from [OpenShift](https://www.openshift.com/) to [Azure](http://azure.microsoft.com/en-us/). After following [some instructions](http://www.howtoinstallghost.com/how-to-install-ghost-on-windows-azure/) on how to install Ghost in Azure (it's easy), I was disappointed to see it was a couple versions behind the latest.

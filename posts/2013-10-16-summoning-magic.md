@@ -1,10 +1,10 @@
 ---
 layout: layouts/post.njk
 title: Summoning MAGIC
-
 date: 2013-10-16
-published: false
-tags: [MAGIC, Web Development]
+tags:
+  - MAGIC
+  - web development
 ---
 
 > "Dark, mysterious, and magical." - Andy Phelps

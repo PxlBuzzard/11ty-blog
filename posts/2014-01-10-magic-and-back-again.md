@@ -1,10 +1,11 @@
 ---
 layout: layouts/post.njk
 title: MAGIC and Back Again
-
 date: 2014-01-10
-published: false
-tags: [MAGIC, Web Development, advfoss]
+tags:
+  - MAGIC
+  - web development
+  - advfoss
 ---
 
 I set out to pick the best framework for the RIT MAGIC Center. After finding [Django CMS](https://www.django-cms.org/en/), I thought I had found my answer in [Django](https://www.djangoproject.com/). Easy content management, an automatic admin interface, easy database models, a forward-thinking HTML templating system, and a generous open-source community all contributed to my decision, but ultimately I made some choices that didn't work out in the end.

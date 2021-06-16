@@ -1,10 +1,8 @@
 ---
 layout: layouts/post.njk
 title: RocPy April 2014 Meetup
-
 date: 2014-04-17
-published: false
-tags: [advfoss]
+tags: advfoss
 ---
 
 With a remote call from Montreal, [decause](https://github.com/decause) brought a number of Python developers to us to pitch their projects and answer questions from us.

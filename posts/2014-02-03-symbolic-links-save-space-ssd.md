@@ -1,10 +1,11 @@
 ---
 layout: layouts/post.njk
 title: Using Symbolic Links to Save Space on Your SSD
-
 date: 2014-02-03
-published: false
-tags: [Windows, advfoss, tutorial]
+tags:
+  - windows
+  - advfoss
+  - tutorial
 ---
 
 A common problem I run into after installing and using Windows on an SSD is that it quickly fills up. One great way to move files off the solid state is symbolic links. Symbolic links, or symlink, trick Windows into thinking that it is saving data to, say, `C:/Users/[username]/Documents`, when in reality the data is being saved to `D:/Documents`. Think of it like a folder shortcut, but at a deeper level.
@@ -41,12 +42,12 @@ You need to have a boot CD (or USB) for Windows for this tutorial.
 
 3. Type `robocopy /copyall /mir /xj C:\Users D:\Users`. Let's break that down:
 
-	* `robocopy` copies files.
-    * `/copyall` gets *all* the folders.
-	* `/mir` copies the user permissions and other metadata.
-    * `/xj` stops robocopy from following symbolic links.
-    * `C:\Users` is your original Users folder (on your SSD or original drive).
-    * `D:\Users` is where you want the Users folder to be stored from now on.
+* `robocopy` copies files.
+  * `/copyall` gets *all* the folders.
+* `/mir` copies the user permissions and other metadata.
+  * `/xj` stops robocopy from following symbolic links.
+  * `C:\Users` is your original Users folder (on your SSD or original drive).
+  * `D:\Users` is where you want the Users folder to be stored from now on.
 
 4. Type `rmdir /S /Q C:\Users`, replacing `C:\Users` with your original Users folder location.
 

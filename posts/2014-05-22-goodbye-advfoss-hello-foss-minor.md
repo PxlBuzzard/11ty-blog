@@ -3,7 +3,7 @@ layout: layouts/post.njk
 title: Goodbye Advfoss, Hello FOSS Minor
 
 date: 2014-05-22
-published: false
+
 tags: [advfoss]
 ---
 
@@ -19,7 +19,7 @@ When I approached Remy about skipping the pre-req to jump straight into Advfoss 
 
 I have plenty more to share about why Free and Open Source Software is awesome, and I'm sure next semester as I'm doing three FOSS classes to become one of the first people in the country to graduate with this minor I will write all about it.
 
-## Issues closed from my [last post](http://blog.danieljost.com/final-countdown-to-advfoss/):
+## Issues closed from my [last post](http://blog.danieljost.com/posts/final-countdown-to-advfoss/):
 
 ### [PuzzleDash](https://github.com/zeDoctor/PuzzleDash) - [Add installation instructions to README](https://github.com/zeDoctor/PuzzleDash/issues/1)
 

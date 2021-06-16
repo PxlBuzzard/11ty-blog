@@ -1,10 +1,8 @@
 ---
 layout: layouts/post.njk
 title: Post-mortem - qlt
-
 date: 2014-06-17
-published: false
-tags: [Web Development]
+tags: web development
 ---
 
 qlt is a fork of [Canvas](https://github.com/instructure/canvas-lms), an open-source learning management system. If you've used Blackboard, D2L, MyCourses, that's what Canvas is.

@@ -1,10 +1,8 @@
 ---
 layout: layouts/post.njk
 title: Student Spotlight - Daniel Jost
-
 date: 2014-09-10
-published: false
-tags: [RIT]
+tags: RIT
 ---
 
 This post is the full question set of the [article published in University News](http://www.rit.edu/news/story.php?id=50951), a publication at RIT. Thank you to Derrick Hunt for the questions, and shoutout to [Brandon Littell](http://brandonlittell.com) for sharing the article space.

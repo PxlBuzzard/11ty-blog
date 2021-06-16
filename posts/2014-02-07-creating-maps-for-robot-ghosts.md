@@ -1,15 +1,13 @@
 ---
 layout: layouts/post.njk
 title: Creating Maps for Robot Ghosts
-
 date: 2014-02-07
-published: false
 tags: [Robot Ghosts]
 ---
 
 The general features needed from any level editor are:
 
-* Load levels (yaml files)
+* Load levels (.yaml files)
 * Easily map to a 2D grid
 * Custom object placement outside the grid system
 * Tile types: spawnable, walkable, obstacle, etc
@@ -33,7 +31,7 @@ There are some interesting things we can do if we roll our own editor. Foremost,
 
 Features specifically for an in-game editor:
 
-* Save a level (as a yaml file)
+* Save a level (as a .yaml file)
 * In-game editing of everything
 * Model placement, and object types (obstacle, special, etc)
 * Spawn, walk, obstacle tiles

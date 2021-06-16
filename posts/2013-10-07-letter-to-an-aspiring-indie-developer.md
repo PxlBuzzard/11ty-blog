@@ -1,9 +1,7 @@
 ---
 layout: layouts/post.njk
 title: A Letter to an Aspiring Indie Developer
-
 date: 2013-10-07
-published: false
 tags: []
 ---
 

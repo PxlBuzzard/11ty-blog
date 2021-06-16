@@ -1,10 +1,8 @@
 ---
 layout: layouts/post.njk
 title: Language-D for Atom Proposal
-
 date: 2014-03-13
-published: false
-tags: [advfoss]
+tags: advfoss
 ---
 
 Title of Hack - **Language-D for Atom**

@@ -1,10 +1,8 @@
 ---
 layout: layouts/post.njk
 title: Using SASS on a remote server
-
 date: 2013-10-31
-published: false
-tags: [Web Development]
+tags: web development
 ---
 
 Sass is a Ruby gem. This is not helpful when you use Python/Django for your site.

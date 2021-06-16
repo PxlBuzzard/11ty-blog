@@ -1,10 +1,8 @@
 ---
 layout: layouts/post.njk
 title: The History of the Dash Engine
-
 date: 2014-04-29
-published: false
-tags: [prodstud, Dash]
+tags: dash
 ---
 
 **Note**: I wrote this in third-person to encourage future edits by other people. This article is copied on the [Dash wiki](https://github.com/Circular-Studios/Dash/wiki/Engine-History), which will remain up-to-date as time progresses.

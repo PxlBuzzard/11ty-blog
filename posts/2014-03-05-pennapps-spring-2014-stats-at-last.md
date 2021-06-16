@@ -1,10 +1,10 @@
 ---
 layout: layouts/post.njk
 title: PennApps Spring 2014 - Stats At Last
-
 date: 2014-03-05
-published: false
-tags: [advfoss, hackathon]
+tags:
+  - advfoss
+  - hackathon
 ---
 
 I've been using [Last.fm](http://www.last.fm/user/Pxl_Buzzard) since November 2008, and ever since then I have been on the lookout for a way to visualize my music history. There is a [group](http://www.last.fm/group/Stats) that keeps a list of software that works with Last.fm, but [only one](http://www.last.fm/user/C26000/journal/2006/07/30/383m_last.fm_extra_stats) really adds good data visualization. However, the project is abandoned and it only scratches the surface of what is possible.

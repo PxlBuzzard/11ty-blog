@@ -1,10 +1,11 @@
 ---
 layout: layouts/post.njk
 title: The Vision of Circular Studios, Fall 2014
-
 date: 2014-09-07
-published: false
-tags: [Dash, Spectral Robot Task Force, Circular Studios]
+tags:
+  - dash
+  - Spectral Robot Task Force
+  - Circular Studios
 ---
 
 For those of you who don't know me: I'm Daniel Jost, a fourth year Game Design and Development student at the Rochester Institute of Technology. I am the Producer of Dash and Spectral Robot Task Force, as well as the Lead Programmer for Spectral. Both are products of Circular Studios.

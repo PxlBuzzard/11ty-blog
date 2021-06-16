@@ -1,10 +1,8 @@
 ---
 layout: layouts/post.njk
 title: Thoughts on Gone Home
-
 date: 2014-03-13
-published: false
-tags: [prodstud]
+tags: review
 ---
 
 *Gone Home* won numerous Game of the Year awards, and I finally put in the couple hours to play through it myself.

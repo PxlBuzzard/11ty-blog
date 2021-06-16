@@ -1,15 +1,12 @@
 ---
 layout: layouts/post.njk
 title: Postmortem - Les Lavendes B&B
-
 date: 2013-10-24
-published: false
+eleventyExcludeFromCollections: true
 tags: []
 ---
 
 ## The Website
-
-
 
 ## What Happened?
 
@@ -21,6 +18,4 @@ I shouldn't have been too surprised. Emails leading up to that point were increa
 
 This project was not design. Myrta wanted a simple way to update the text on her website. That's it.
 
-
 ## Going Forward
-

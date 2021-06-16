@@ -1,10 +1,8 @@
 ---
 layout: layouts/post.njk
 title: Building the Danieljost.com Website
-
 date: 2012-12-16
-published: false
-tags: [Website]
+tags: website
 ---
 
 Building a site to showcase yourself is hard. Even after working on websites professionally for three years I didn't have a grand vision in my head of what the site should look like. However I knew I that I was going to make it exactly the way I wanted it since I haven't had the luxury of complete creative control on a website since I started working professionally.

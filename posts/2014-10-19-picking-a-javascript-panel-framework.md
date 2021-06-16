@@ -1,10 +1,10 @@
 ---
 layout: layouts/post.njk
 title: Picking a JavaScript Panel Framework
-
 date: 2014-10-19
-published: false
-tags: [Web Development, javascript]
+tags:
+  - web development
+  - javascript
 ---
 
 > This post was originally sent as a response to [Jeff Houde](https://github.com/Lochemage), the developer of wcDocker, who asked why I didn't pick his framework.

@@ -9,7 +9,7 @@ tags: [hackathon, RIT]
 
 ![BrickHack photo featuring yours truly](https://res.cloudinary.com/danieljost/image/upload/v1430115449/11155099_917182834999062_3619675854462788362_o_bmlz4u.jpg)
 
-When thinking about how to start a post detailing what might be the largest project (in scale at least) I've been involved in, I went back to [my retrospective of PennApps](https://blog.danieljost.com/pennapps-spring-2014-stats-at-last/) that I wrote a year ago. This quote shows up near the end:
+When thinking about how to start a post detailing what might be the largest project (in scale at least) I've been involved in, I went back to [my retrospective of PennApps](https://blog.danieljost.com/posts/pennapps-spring-2014-stats-at-last/) that I wrote a year ago. This quote shows up near the end:
 
 > PennApps offered me a fantastic first large hackathon experience, and we're hoping to try and replicate that experience at RIT going forward.
 

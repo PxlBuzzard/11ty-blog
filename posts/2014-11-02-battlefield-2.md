@@ -1,9 +1,8 @@
 ---
 layout: layouts/post.njk
 title: Battlefield 2
-
 date: 2014-11-02
-published: false
+eleventyExcludeFromCollections: true
 tags: []
 ---
 

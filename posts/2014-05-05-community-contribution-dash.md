@@ -1,10 +1,8 @@
 ---
 layout: layouts/post.njk
 title: Community Contribution - Dash
-
 date: 2014-05-05
-published: false
-tags: [advfoss, Dash]
+tags: dash
 ---
 
 I have been the primary champion of game developers for the [Dash engine](https://github.com/Circular-Studios/Dash) for the last few months. So far, I have made [33 issues](https://github.com/Circular-Studios/Dash/issues/created_by/PxlBuzzard), 25 of which have been closed. Many of the issues have come about from my work on Spectral Robot Task Force, a game meant to drive the development of Dash forward as a game-ready engine.

@@ -7,6 +7,4 @@ eleventyNavigation:
   order: 3
 ---
 
-I am a person that writes stuff.
-
-This blog template is based on [eleventy-high-performance-blog](https://www.industrialempathy.com/posts/eleventy-high-performance-blog/) which itself is based on [eleventy-base-blog](https://github.com/11ty/eleventy-base-blog).
+I'm a dabbler. I rarely stick to one thing for too long, unless that thing is my wife, pets, computer, job... what I'm trying to say is that if this blog hasn't been updated in awhile, consider this a heads-up.

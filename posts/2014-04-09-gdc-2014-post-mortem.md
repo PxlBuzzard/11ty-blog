@@ -1,10 +1,10 @@
 ---
 layout: layouts/post.njk
 title: GDC 2014 Post-Mortem
-
 date: 2014-04-09
-published: false
-tags: [prodstud, GDC, travel]
+tags:
+  - GDC
+  - travel
 ---
 
 The following is an overall account of GDC 2014, as experienced by myself as well as Colden Cullen, Brandon Littell, and Eric Christenson. Colden has [written more extensively](http://blog.coldencullen.com/gdc-2014-who-we-talked-to/) about the individual conversations that we had, while my approach covers the broad strokes of the trip.
