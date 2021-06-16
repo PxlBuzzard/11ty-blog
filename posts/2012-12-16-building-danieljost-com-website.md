@@ -13,9 +13,9 @@ Before getting started I got my website hooked up with <a href="https://www.clou
 
 <em><strong>The menu bar</strong></em>:
 
-After seeing the fantastic menu bar built by <a href="http://amanita-design.net/" target="_blank">Amanita Design</a> I knew I wanted to use it. However they used <a href="http://jquery.com/" target="_blank">jQuery</a> coupled with a <a href="http://jquery.malsup.com/cycle/" target="_blank">Cycle</a> plugin and I wanted to see the same effect replicated using purely CSS. You can see a boiled-down version of the menu I built below (or at <a href="http://codepen.io/PxlBuzzard/pen/GbvKj" target="_blank">CodePen</a> if the embed is broken). The trick is to use text-shadow to duplicate the text, then increase the height the same amount that you decrease the margin-top, which effective makes the button look like it is scrolling up.
+After seeing the fantastic menu bar built by <a href="http://amanita-design.net/" target="_blank">Amanita Design</a> I knew I wanted to use it. However they used <a href="http://jquery.com/" target="_blank">jQuery</a> coupled with a <a href="http://jquery.malsup.com/cycle/" target="_blank">Cycle</a> plugin and I wanted to see the same effect replicated using purely CSS. You can see a boiled-down version of the menu I built below (or at <a href="https://codepen.io/PxlBuzzard/pen/GbvKj" target="_blank">CodePen</a> if the embed is broken). The trick is to use text-shadow to duplicate the text, then increase the height the same amount that you decrease the margin-top, which effective makes the button look like it is scrolling up.
 <pre class="codepen" data-height="300" data-type="result" data-href="GbvKj" data-user="PxlBuzzard" data-safe="true"><code></code></pre>
-<script async src="http://codepen.io/assets/embed/ei.js"></script>
+<script async src="https://codepen.io/assets/embed/ei.js"></script>
 
 <strong>Multiple resolutions:</strong>
 
