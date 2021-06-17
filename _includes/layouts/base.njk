@@ -68,6 +68,9 @@
         <div id="reading-progress" aria-hidden="true"></div>
       </nav>
       <h1>{{ title }}</h1>
+      {% if page.url.indexOf("/posts/") > -1 %}
+        <p>Published <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time></p>
+      {% endif %}
       {% block extraArticleHeader %}{% endblock %}
       <dialog id="message"></dialog>
       {% if googleanalytics %}
@@ -83,10 +86,6 @@
         {% block article %}
           {{ content | safe }}
         {% endblock %}
-
-        {% if page.url.indexOf("/posts/") > -1 %}
-          <p>Published <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time></p>
-        {% endif %}
       </article>
     </main>
 

@@ -1013,7 +1013,7 @@ body {
 section {
   margin-left: auto;
   margin-right: auto;
-  width: 900px;
+  width: 37.5em;
 }
 #menu-toggle {
   display: none;
@@ -1040,8 +1040,7 @@ header label {
   display: none;
 }
 header {
-  padding: 4.5em 1.5em 3em;
-  width: 37.5em;
+  padding: 1em 1.5em 1em;
   margin: 0 auto;
   text-align: center;
   max-width: 100%;
