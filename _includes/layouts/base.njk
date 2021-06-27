@@ -1,9 +1,6 @@
 <!doctype html>
 <html lang="en"
     domain="{{ metadata.domain }}"
-    {% if googleanalytics %}
-    ga-id="{{ googleanalytics }}"
-    {% endif %}
   >
   <head>
     <meta charset="utf-8">
@@ -47,9 +44,8 @@
     <script async defer src="{{ "/js/min.js" | addHash }}"
       {% if webvitals %}data-cwv-src="{{ "/js/web-vitals.js" | addHash }}"{% endif %}>
     </script>
-    {% if googleanalytics %}
-      <script async defer src="{{ "/js/cached.js" | addHash }}"></script>
-    {% endif %}
+    <!-- Umami analytics hosted on Railway -->
+    <script async defer data-website-id="b246527a-d407-4a3c-b126-755bd355b111" src="https://analytics.danieljost.com/umami.js"></script>
     <!-- Notably iOS UAs also contain Mac OS X -->
     <script csp-hash>if (/Mac OS X/.test(navigator.userAgent))document.documentElement.classList.add('apple')
     </script>
