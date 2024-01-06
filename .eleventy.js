@@ -14,7 +14,6 @@ const markdownItFootnote = require("markdown-it-footnote");
 const localImages = require("./third_party/eleventy-plugin-local-images/.eleventy.js");
 const CleanCSS = require("clean-css");
 const GA_ID = require("./_data/metadata.json").googleAnalyticsId;
-const UpgradeHelper = require("@11ty/eleventy-upgrade-help");
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
@@ -32,7 +31,6 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(require("./_11ty/img-dim.js"));
   eleventyConfig.addPlugin(require("./_11ty/json-ld.js"));
   eleventyConfig.addPlugin(require("./_11ty/optimize-html.js"));
-  eleventyConfig.addPlugin(UpgradeHelper);
   eleventyConfig.setDataDeepMerge(true);
   eleventyConfig.addLayoutAlias("post", "layouts/post.njk");
   eleventyConfig.addNunjucksAsyncFilter(
