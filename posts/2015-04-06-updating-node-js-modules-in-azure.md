@@ -4,7 +4,7 @@ title: Updating a Node.js App in Azure
 date: 2015-04-06
 tags:
   - web development
-  - node.js
+  - node-js
   - azure
 ---
 
