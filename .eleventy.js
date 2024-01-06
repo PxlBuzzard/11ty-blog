@@ -17,7 +17,6 @@ const GA_ID = require("./_data/metadata.json").googleAnalyticsId;
 const UpgradeHelper = require("@11ty/eleventy-upgrade-help");
 
 module.exports = function (eleventyConfig) {
-  eleventyConfig.addPlugin(UpgradeHelper);
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(pluginSyntaxHighlight);
   eleventyConfig.addPlugin(pluginNavigation);
@@ -33,7 +32,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(require("./_11ty/img-dim.js"));
   eleventyConfig.addPlugin(require("./_11ty/json-ld.js"));
   eleventyConfig.addPlugin(require("./_11ty/optimize-html.js"));
-  eleventyConfig.addPlugin(require("./_11ty/apply-csp.js"));
+  eleventyConfig.addPlugin(UpgradeHelper);
   eleventyConfig.setDataDeepMerge(true);
   eleventyConfig.addLayoutAlias("post", "layouts/post.njk");
   eleventyConfig.addNunjucksAsyncFilter(
@@ -147,29 +146,7 @@ module.exports = function (eleventyConfig) {
     breaks: true,
     linkify: true,
   }).use(markdownItFootnote);
-  // .use(markdownItAnchor, {
-  //   permalink: true,
-  //   permalinkClass: "direct-link",
-  //   permalinkSymbol: "",
-  // });
   eleventyConfig.setLibrary("md", markdownLibrary);
-
-  // Browsersync Overrides
-  eleventyConfig.setBrowserSyncConfig({
-    callbacks: {
-      ready: function (err, browserSync) {
-        const content_404 = fs.readFileSync("_site/404.html");
-
-        browserSync.addMiddleware("*", (req, res) => {
-          // Provides the 404 content without redirect.
-          res.write(content_404);
-          res.end();
-        });
-      },
-    },
-    ui: false,
-    ghostMode: false,
-  });
 
   return {
     templateFormats: ["md", "njk", "html", "liquid"],
